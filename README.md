@@ -38,8 +38,8 @@ This project supports full CRUD operations with data persistence using a JSON fi
     ├── TaskMAnager.py
     ├── .gitignore
     └── README.md
-```
 
+```
 
 ---
 
@@ -51,14 +51,14 @@ This project supports full CRUD operations with data persistence using a JSON fi
 git clone https://github.com/ybhavanareddy/cli-task-manager-python.git 
 ```
 ## 2️⃣ Navigate to the project folder
-    ```
+    
         cd task-manager
-    ```
+    
 
 ## 3️⃣ Run the application
-    ```
+    
         python TaskManager.py
-    ```
+    
 
 ## Example Usage
 
@@ -71,29 +71,32 @@ git clone https://github.com/ybhavanareddy/cli-task-manager-python.git
 6. Filter Tasks
 7. Exit
 
-### Design Highlights
+# Design Highlights
 
-# Separation of Concerns
+### Separation of Concerns
 
-    - Task class → data model
+ - Task class → data model
 
-    - TaskManager class → business logic
+ - TaskManager class → business logic
 
-    - CLI menu → user interaction
+ - CLI menu → user interaction
 
-# UUID-based Task IDs
-    - Ensures reliable update and   delete operations even after task reordering.
+### UUID-based Task IDs
+- Ensures reliable update and   delete operations even after task reordering.
 
-# JSON Persistence
-    - Tasks are automatically saved and loaded across program runs.
+### JSON Persistence
+- Tasks are automatically saved and loaded across program runs.
 
-# Validation & Error Handling
-    - Prevents invalid priority values and incorrect date formats.
+### Validation & Error Handling
+- Prevents invalid priority values and incorrect date formats.
 
 # License
 
-This project is for learning and demonstration purposes.
+- This project is for learning and demonstration purposes.
 
 # 👩‍💻 Author
 
-# Bhavana
+## Bhavana
+
+🔗 LinkedIn
+http://www.linkedin.com/in/yatham-bhavana
